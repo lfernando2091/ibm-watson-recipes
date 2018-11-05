@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Doopy</string>
+    <string name="txt_login">Entrar</string>
+    <string name="title_activity_main">Inicio</string>
+    <string name="prompt_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</string>
+
+</resources>

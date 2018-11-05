@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="md_keylines">10dp</dimen>
+    <dimen name="md_keylines2">70dp</dimen>
+</resources>

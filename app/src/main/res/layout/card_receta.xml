@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="235dp"
+    android:layout_gravity="center"
+    android:layout_marginBottom="@dimen/md_keylines"
+    app:cardElevation="5dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/card_image"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:scaleType="centerCrop"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="#000000"
+            android:alpha=".0"
+            android:id="@+id/blacklayer" />
+
+        <TextView
+            android:id="@+id/card_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_image"
+            android:layout_marginLeft="@dimen/md_keylines"
+            android:layout_marginRight="@dimen/md_keylines"
+            android:layout_toLeftOf="@+id/foto_eliminar"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/dark_grey"
+            android:textSize="14sp"
+            tools:text="@string/prompt_lorem" />
+        <ImageButton
+            android:id="@+id/foto_eliminar"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/md_keylines"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_send"
+            android:tint="@color/button_grey" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
